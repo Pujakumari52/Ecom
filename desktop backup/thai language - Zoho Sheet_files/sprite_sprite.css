@@ -1,0 +1,268 @@
+.wholeSheetSelector {
+	background-color: rgb(243, 244, 243); 
+	border-width: 0px 1px 1px 0px; 
+	border-color: rgb(227, 228, 227); 
+	border-style: solid; 
+	cursor: pointer; 
+	transition: 0.3s ease; 
+	position: relative; 
+}
+
+.tmLineArea, .ui-individual-icon.ui-icon-zTimeArea {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 48px; 
+	height: 48px; 
+	background-position: -0px -0px; 
+}
+
+.bullet, .ui-individual-icon.ui-icon-zBulletCol {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 48px; 
+	height: 48px; 
+	background-position: -0px -58px; 
+}
+
+.colBullet, .ui-individual-icon.ui-icon-zBulletBar {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 48px; 
+	height: 48px; 
+	background-position: -0px -116px; 
+}
+
+.wtrFall, .ui-individual-icon.ui-icon-zWaterfall {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 48px; 
+	height: 48px; 
+	background-position: -0px -174px; 
+}
+
+.funn, .ui-individual-icon.ui-icon-zFunnel {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 48px; 
+	height: 48px; 
+	background-position: -0px -232px; 
+}
+
+.comb, .ui-individual-icon.ui-icon-zCombo {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 48px; 
+	height: 48px; 
+	background-position: -0px -290px; 
+}
+
+.cClear span {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	background-position: -0px -348px; 
+	width: 16px; 
+	height: 16px; 
+}
+
+.cutCopySelection > .edges > .bottom {
+	border-bottom: 0; 
+	background: url(images/t_b.gif) repeat-x left bottom; 
+	height: 1px; 
+}
+
+.cutCopySelection > .edges > .top {
+	border-top: 0; 
+	background: url(images/t_b.gif) repeat-x left top; 
+	height: 1px; 
+}
+
+.cutCopySelection > .edges > .left {
+	border-left: 0; 
+	background: url(images/l_r.gif) repeat-y left top; 
+	width: 1px; 
+}
+
+.cutCopySelection > .edges > .right {
+	border-right: 0; 
+	background: url(images/l_r.gif) repeat-y right bottom; 
+	width: 1px; 
+}
+
+.tmplDelIcon {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 13px; 
+	height: 13px; 
+	background-position: -0px -374px; 
+}
+
+.dvCog {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 10px; 
+	height: 11px; 
+	background-position: -0px -397px; 
+}
+
+.shNtfyIco {
+	background-image: url(images/components-icons-new.png); 
+	background-repeat: no-repeat; 
+}
+
+.shNtfyIco.shNtfyFindIcon {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	margin-left: 5px; 
+	width: 16px; 
+	height: 13px; 
+	background-position: -0px -418px; 
+}
+
+.dvInfoIcon {
+	background-position: -137px -36px; 
+	height: 14px; 
+	width: 14px; 
+}
+
+.dvStopIcon {
+	background-position: -89px -36px; 
+	height: 14px; 
+	width: 14px; 
+}
+
+#fImg div {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: -1px; 
+	height: -1px; 
+	background-position: -0px -441px; 
+}
+
+#pImg div {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: -1px; 
+	height: -1px; 
+	background-position: -0px -450px; 
+}
+
+#nImg div {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: -1px; 
+	height: -1px; 
+	background-position: -0px -459px; 
+}
+
+#lImg div {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: -1px; 
+	height: -1px; 
+	background-position: -0px -468px; 
+}
+
+.pR {
+	background: url(images/protected_bg.png); 
+}
+
+.sheetMask {
+	background: url(images/sheet_lock_big.png) no-repeat 50% 50% , url(images/protected_bg.png) repeat; 
+}
+
+.sbCbct label {
+	display: inline-block; 
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 20px; 
+	height: 20px; 
+	background-position: -0px -477px; 
+}
+
+.publishRngOrgIco:after {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 15px; 
+	height: 16px; 
+	background-position: -0px -507px; 
+}
+
+.publishRngExtOrgIco:after {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 14px; 
+	height: 14px; 
+	background-position: -0px -533px; 
+}
+
+.fldTd:before {
+}
+
+.sPLiSp .back {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 15px; 
+	height: 9px; 
+	background-position: -0px -557px; 
+}
+
+.vHrV {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 12px; 
+	height: 14px; 
+	background-position: -0px -576px; 
+}
+
+.sTUser {
+	background-position: 1px -121px; 
+	margin-left: 2px; 
+}
+
+.sTCmt {
+	background-position: -101px -124px; 
+}
+
+.sPCmtCls {
+	background-position: -74px -1px; 
+}
+
+.sPCmtMail {
+	background-position: -49px -1px; 
+}
+
+.sPCmtNtfy {
+	background-position: -1px -2px; 
+}
+
+.sPCmtNew, .sPCmtNew:before {
+	background-position: -25px -1px; 
+}
+
+.sPCmtHght {
+	background-position: -194px -1px; 
+}
+
+.sprite_svg {
+	background-image: url(images/sprite.svg); 
+	background-repeat: no-repeat; 
+	display: inline-block; 
+	width: 19px; 
+	height: 19px; 
+	background-position: -1px -84px; 
+}
+
+.ui-individual-icon.ui-icon-ztick {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: 10px; 
+	height: 9px; 
+	background-position: -0px -600px; 
+}
+
+.ziaContainer .expQry .voice {
+	background: url(images/microphone.svg) no-repeat 4px 6px; 
+	background-size: 21px; 
+}
+
+.sPLiSp .group {
+	background: url(images/sheet_sprite.svg) no-repeat; 
+	width: 20px; 
+	height: 20px; 
+	background-position: -98px -26px; 
+}
+
+.sPLiSp .delt {
+	background: url(images/sheet_sprite.svg) no-repeat; 
+	width: 20px; 
+	height: 20px; 
+	background-position: -122px -25px; 
+}
+
+.printPrevDmyImg {
+	background: url(sprite-image/sprite.png) no-repeat; 
+	width: -1px; 
+	height: -1px; 
+	background-position: -0px -619px; 
+}
+

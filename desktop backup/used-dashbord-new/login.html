@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>User</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link href="css/intlTelInput.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="login-page">
+<div id="overlly" class="loader-overlay">
+  <div class="loader"></div>
+</div>
+<div class="container">
+    <div class="col-sm-4 col-sm-offset-4">
+	   <div class="login-frem">
+	   <div class="panel-heading-logo">
+	       <span class="login-logo"><img src="img/logo/logo.png"></span>
+		   <h3 class="text-center"> Sign In to <strong class="text-custom text-custom-red">Used Phone</strong> </h3>
+		   </div>
+		   <form class="form-horizontal m-t-20" action="" method="post">
+        <input name="check" value="check" type="hidden">
+                <div class="form-group ">
+                    <div class="col-xs-12">
+						<!-- <input class="form-control"  id="phone" name="phone" type="tel" placeholder="Phone"> -->
+						<input class="form-control" id="" name="" required="" placeholder="User Name" type="text">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <input class="form-control" id="txtPassword" name="password" required="" placeholder="Password" type="password">
+                    </div>
+                </div>                
+                <div class="form-group text-center m-t-40">
+                    <div class="col-xs-12">
+                        <button class="btn btn-primary btn-block" name="login" type="submit">Log In</button>
+                    </div>
+                </div>
+				<div class="clearfix"></div>
+				<p class=""><!-- <a class="register" href="#">Register Now</a> --><a class="forgot" href="forgot-password.html">Forgot Password?</a></p>
+            </form>
+	   </div>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/intlTelInput.min.js"></script> 
+<script>
+      var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      // autoPlaceholder: "off",
+      // dropdownContainer: document.body,
+      // excludeCountries: ["us"],
+      // formatOnDisplay: false,
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // hiddenInput: "full_number",
+      // initialCountry: "auto",
+      // localizedCountries: { 'de': 'Deutschland' },
+      // nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      // placeholderNumberType: "MOBILE",
+      // preferredCountries: ['cn', 'jp'],
+      // separateDialCode: true,
+      utilsScript: "build/js/utils.js",
+    });
+</script>
+<script>                      
+ $(window).load(function() {
+    $('.loader-overlay').fadeOut(200);
+});
+</script>
+
+</body>
+</html>

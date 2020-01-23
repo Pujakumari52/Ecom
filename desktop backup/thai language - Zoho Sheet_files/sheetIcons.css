@@ -1,0 +1,338 @@
+/* $Id$ */
+.shIcon,.shSplitIcon:after,.shIconBefore:before,.shIconAfter:after,.ui-icon.ui-icon-closethick,.ZsRangeIco,.rPpopin{
+	background: url(images/sheet_sprite.svg) no-repeat;
+    content: '';
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+.shNoIcon.shIconBefore:before{
+    content: none;
+}
+.shVwVrsn{
+    position: relative;
+    padding-left: 20px;
+    padding: 3px 0px 3px 25px;
+    float: left;
+}
+.shVwVrsn.shSplitIcon{
+    padding: 3px 10px 3px 23px;
+}
+.shVwVrsn.shSplitIcon:after{
+    right: -5px;
+    top: 1px;
+}
+.shVwVrsn:before{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wholeSheetSelector{
+    background-image: none!important;
+}
+.shIconBefore.shPrint{
+    width: auto
+}
+.sPDesc.sPNoChat{
+    text-decoration: none;
+}
+.spView .sPViewIcon::before{
+    right: 15px;
+}
+.ui-state-highlight.shDownArrow{
+    border: 0;
+    border-left: 1px solid #d8d8d8;
+}
+.sPIcon.active svg{
+    fill: #13AD6B;
+}
+.sPIcon.sPAddNew{
+    animation: glowSidePanel .3s linear;
+}
+.sPIcon.sPAddNew:before {
+    content: "";
+    height: 100%;
+    border-left: 3px solid #43af73;
+    position: absolute;
+    left: -1px;
+    top: 0;
+}
+@keyframes glowSidePanel{
+    1%{
+       transform: translateY(30px);
+       /*background: #43af73;*/
+    }
+    25%{
+        transform: translateY(0px);
+        /*background: #43af73;*/
+    }
+    50%{
+       transform: translateY(15px);
+       /*background: transparent;*/
+    }
+    100%{
+       transform: translateY(0px);
+       /*background: transparent;*/
+    }
+}
+.tab.lockIcon.formIcon:after{
+    left: 19px
+}
+.shMoreMenuIcon.ui-state-highlight{
+    background-color: #EDEDED;
+    background-image: url(images/sheet_sprite.svg);
+    background-repeat: no-repeat;
+}
+.ZsShare .shIcon{
+    width: 16px;
+    height: 15px;
+    margin-right: 6px;
+}
+.filterItem {
+    background: url(images/uncheck.svg) no-repeat 10px 5px;
+    width: 100%;
+    padding: 3px 0 3px 30px;
+    white-space: nowrap;
+    cursor: pointer;
+    float: left;
+    box-sizing: border-box;
+}
+.filterItem:hover{
+    background-color: #f1f1f1;
+}
+.filterPartialSelection {
+    background:url(images/check_partial.svg) no-repeat 10px 5px;
+}
+.filterItemSelect{
+    background: url(images/check.svg) no-repeat 10px 5px;
+}
+.svgBlckFill{
+    fill: #444;
+}
+.svgBlckStk {
+    stroke: #444;
+}
+.svgBlckFillStk{
+    fill: #444;
+    stroke: #444;
+}
+.svgWhiteFill{
+    fill: #fff;
+}
+.svgPrmyFill{
+    fill: #19af5c;
+}
+.svgPrmyFillStk{
+    fill: #19af5c;
+    stroke: #19af5c;
+}
+
+/***** New sprite start *****/
+
+.sPZia{
+    background-position: -8px -11px;
+    height: 31px;
+    width: 32px;
+}
+.sPIcon.active .sPZia{
+    background-position: -55px -11px;
+}
+.lckToggleBox .toggleCheckBoxType span.shLocked{
+    background-position: -269px -26px;
+    right: 19px
+}
+.lckToggleBox .toggleCheckBoxType input:checked + span + span.shLocked{
+    background-position: -244px -27px;
+}
+.tab.lockIcon:before, .tab.formIcon:after {
+    content: ""; 
+    background-repeat: no-repeat; 
+    height: 21px; 
+    width: 20px; 
+    position: absolute; 
+    z-index: 1; 
+    background-position: -101px -4px;
+    left: 5px;
+    top: 7px;
+}
+.sheetTabHolder .tab.hgtLockIcon.lockIcon:before{
+    background-position: -125px -4px;
+}
+.tab.formIcon:after {
+    background-position: -149px -4px;
+}
+.ZsRangeIco{
+    background-position: -173px -25px;
+}
+.rPpopin{
+    background-position: -149px -28px;
+}
+.sPDataCleanIco{
+    background-position: -193px -28px;
+}
+.sPIcon.active .sPDataCleanIco{
+    background-position: -218px -28px;
+}
+.shIcon.sPCmtLike {
+    width: 13px; 
+    height: 13px; 
+    background-position: -30px -55px;
+}
+.shIcon.sPCmtLike.shLikeActive{
+    background-position: -6px -55px;
+}
+.srcRngEdit .ziaFltrBtn, .srcRngEdit .ziaFltredBtn {  
+  background-position: -53px -48px;
+}
+.srcRngEdit .ziaFltredBtn {  
+  background-position: -77px -48px;
+}
+.sTFullScrn{
+    background-position: -98px -49px;
+}
+.sbFsrnClicked .sTFullScrn{
+    background-position: -121px -49px;
+}
+.cpWidget {
+    background-position: -168px -47px;
+}
+.fsWidget {
+    background-position: -193px -47px;
+}
+.shFindBarIcon{
+    position: relative;
+  /*  left: 7px;*/
+    background-position: -243px -54px;
+    width: 17px;
+    height: 12px;
+    top: 1px;
+    opacity: .4;
+}
+.wholeSheetSelector:before{
+    background: url(images/sheet_sprite.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+    cursor: inherit;
+    position: relative;
+    background-position: -146px -48px;
+    content: '';
+}
+.shSuggestFx:before{
+    background-position: -294px -4px;
+    height: 14px;
+    width: 12px;
+    margin-right: 5px;
+    position: absolute;
+    left: 3px;
+}
+.shSuggestDlg:before{
+    background-position: -101px -29px;
+    width: 12px;
+    height: 14px;
+    margin-right: 5px;
+    position: absolute;
+    left: 3px;
+}
+.mcrTree li input:checked  + label + span.mcrIcoOpen{
+    background-position: -244px -4px;
+}
+.mcrIcoOpen{
+    background-position: -268px -4px;
+}
+.mcrIcoSheet{
+    background-position: -197px -4px;
+}
+.shShareIcon:before{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 9px;
+    top: 11px;
+    transform: rotate(315deg) translateY(-50%);
+    border: 1px solid #13ad6b;
+    border-width: 0 0 1px 1px;
+}
+.mcrLfn > .mcrTree > li:nth-last-child(1) .mcrIcoSheet {    
+  background-position: -221px -4px;
+}
+.searchBox:before {
+    position: absolute;
+    left: 7px;
+    background-position: -222px -55px;
+    width: 17px;
+    height: 12px;
+    top: 6px;
+    opacity: 0.4;
+}
+.ui-icon.ui-icon-closethick{
+    background-position: -268px -52px;
+}
+.shBtmNtftCard .ui-icon.ui-icon-closethick {
+    background-position: -267px -50px;
+}
+.shSuggestDfName:before{
+    background-position: -124px -29px;
+    height: 14px;
+    width: 12px;
+    margin-right: 5px;
+    position: absolute;
+    left: 3px;
+}
+.shMoreMenuIcon{
+    background-position: -292px -49px;
+    height: 24px;
+    border-radius: 2px;
+}
+/***** New sprite end *****/
+
+.cutCopySelection > .edges > .bottom {
+    border-bottom: 0; 
+    background: url(images/t_b.gif) repeat-x left bottom; 
+    height: 1px; 
+}
+
+.cutCopySelection > .edges > .top {
+    border-top: 0; 
+    background: url(images/t_b.gif) repeat-x left top; 
+    height: 1px; 
+}
+
+.cutCopySelection > .edges > .left {
+    border-left: 0; 
+    background: url(images/l_r.gif) repeat-y left top; 
+    width: 1px; 
+}
+
+.cutCopySelection > .edges > .right {
+    border-right: 0; 
+    background: url(images/l_r.gif) repeat-y right bottom; 
+    width: 1px; 
+}
+.highlightLocks > span{
+    content: ""; 
+    position: absolute; 
+    background:  url(images/sheet_sprite.svg) no-repeat; 
+    width: 14px; 
+    height: 14px; 
+    background-position: -295px -31px; 
+}
+.sheetMask {
+    background: url(images/sheet_lock_big.png) no-repeat 50% 50% , url(images/protected_bg.png) repeat; 
+}
+
+.pR {
+    background: url(images/protected_bg.png); 
+}
+.fldTd:before {
+    background: url(images/pivot_date.png) no-repeat;
+    width: 10px; 
+    height: 10px; 
+}
+
+
